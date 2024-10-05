@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convite de Casamento - Aniely & Filipe</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="produtos/styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,14 +15,12 @@
     <!-- Barra de Navegação -->
     <nav class="navbar">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Sobre Nós</a></li>
-            <li><a href="#gallery">Galeria</a></li>
-            <li><a href="#location">Localização</a></li>
-            <li><a href="#rsvp">Confirmação de Presença (RSVP)</a></li>
+            <li><a href="#invitation">💌 Convite</a></li>
+            <li><a href="#products">🎁 Presentes</a></li>
+            <li><a href="#location">📍 Localização</a></li>
         </ul>
     </nav>
-    <div class="invitation-container">
+    <div class="invitation-container" id="invitation">
         <!-- Conteúdo do Convite -->
         <div class="invitation-card">
             <div class="header-text">
@@ -48,19 +47,50 @@
             <p class="reception">Recepção na Discovenus</p>
 
             <!-- Imagens de Flores nas Laterais -->
-            <img src="./assets/flowers.svg" alt="Flores Esquerda" class="flores-esquerda">
+            <img src="./assets/flowers.png" alt="Flores Esquerda" class="flores-esquerda">
+            <img src="./assets/flowers.png" alt="Flores Direita" class="flores-direita">
+        </div>
+    </div>
+
+    <!-- produtos -->
+    <div class="products-section" id="products">
+        <h2>
+            🎁 Lista de presentes
+        </h2>
+        <div class="product-container" id="product-container">
+            <!-- Os cards de produtos serão inseridos aqui dinamicamente -->
+        </div>
+        
+        <!-- Modal -->
+        <div id="paymentModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+                <img id="modal-image" src="" alt="QR Code de Pagamento">
+                <p>Ou então use a chave PIX: <strong>teste@gmail.com</strong></p>
+            </div>
         </div>
     </div>
 
     <!-- Seção de Localização -->
     <div class="location-section" id="location">
-        <h2>Localização do Casamento</h2>
+        <h2>📍 Localização do Casamento</h2>
         <p>O casamento será realizado na <strong>Igreja Matriz de Andrelândia</strong>, localizada no centro da cidade.</p>
-        <p>Após a cerimônia, a recepção será na <strong>Discovenus</strong>, a poucos minutos de carro da igreja.</p>
         
         <!-- Mapa embutido do Google Maps -->
         <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3706.0270679460996!2d-44.31357041114502!3d-21.740476299999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9f0c6572c5267f%3A0x2c3939f9c8d0bad3!2sPar%C3%B3quia%20Nossa%20Senhora%20do%20Porto%20da%20Eterna%20Salva%C3%A7%C3%A3o!5e0!3m2!1sen!2sbr!4v1727840593430!5m2!1sen!2sbr" 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4467.626113740458!2d-44.30871894438902!3d-21.740375772210058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9f0c6572c5267f%3A0x2c3939f9c8d0bad3!2sPar%C3%B3quia%20Nossa%20Senhora%20do%20Porto%20da%20Eterna%20Salva%C3%A7%C3%A3o!5e1!3m2!1sen!2sbr!4v1728093356042!5m2!1sen!2sbr" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>   
+        <p>Após a cerimônia, a recepção será na <strong>Danceteria Discovenus</strong>, a poucos minutos de carro da igreja. 🪩🕺💃</p>
+        <!-- Mapa embutido do Google Maps -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5322.685689450309!2d-44.313020887787644!3d-21.73784859706253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9f0c10bcbe0ad9%3A0xb1e8786dfcbed8c8!2sDanceteria%20Discovenus!5e1!3m2!1spt-BR!2sbr!4v1728093158873!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
             width="600" 
             height="450" 
             style="border:0;" 
@@ -68,5 +98,7 @@
             loading="lazy">
         </iframe>
     </div>
+        
+    <script src="produtos/app.js"></script>
 </body>
 </html>

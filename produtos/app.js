@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Carregar o arquivo JSON com a lista de produtos
-    fetch('produtos.json')
+    fetch('produtos/produtos.json')
         .then(response => response.json())
         .then(produtos => {
             const container = document.getElementById('product-container');
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         modalTitle.textContent = title;
         modalDescription.textContent = description;
-        modalImage.src = './pix/169.png'; // Caminho da imagem do QR Code
+        modalImage.src = 'produtos/pix/169.png'; // Caminho da imagem do QR Code
 
         modal.style.display = 'flex'; // Mostrar o modal
 

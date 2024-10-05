@@ -1,4 +1,36 @@
 document.addEventListener("DOMContentLoaded", function () {
+      // Função para o timer
+    function countdownTimer() {
+        // Data do casamento: 28 de dezembro de 2024, 17:00
+        const weddingDate = new Date('2024-12-28T17:00:00').getTime();
+
+        // Atualizar o timer a cada segundo
+        const interval = setInterval(function () {
+            const now = new Date().getTime();
+            const timeLeft = weddingDate - now;
+
+            // Cálculos de tempo
+            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+            // Atualizar os valores no DOM
+            document.getElementById('days').textContent = days;
+            document.getElementById('hours').textContent = hours;
+            document.getElementById('minutes').textContent = minutes;
+            document.getElementById('seconds').textContent = seconds;
+
+            // Se a contagem terminar, exibir uma mensagem
+            if (timeLeft < 0) {
+                clearInterval(interval);
+                document.getElementById('timer').innerHTML = "<h3>O grande dia chegou!</h3>";
+            }
+        }, 1000);
+    }
+
+    // Iniciar o timer
+    countdownTimer();
     // Carregar o arquivo JSON com a lista de produtos
     fetch('produtos/produtos.json')
         .then(response => response.json())

@@ -40,9 +40,41 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Adicionar o card ao container
                 container.appendChild(card);
+
+                // Evento para abrir o modal ao clicar em "Comprar"
+                button.addEventListener('click', function () {
+                    openModal(produto.title, produto.description);
+                });
             });
         })
         .catch(error => {
             console.error('Erro ao carregar os produtos:', error);
         });
+
+    // Função para abrir o modal
+    function openModal(title, description) {
+        const modal = document.getElementById('paymentModal');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDescription = document.getElementById('modal-description');
+        const modalImage = document.getElementById('modal-image');
+
+        modalTitle.textContent = title;
+        modalDescription.textContent = description;
+        modalImage.src = './pix/169.png'; // Caminho da imagem do QR Code
+
+        modal.style.display = 'flex'; // Mostrar o modal
+
+        // Fechar o modal ao clicar no "x"
+        const closeBtn = document.querySelector('.close');
+        closeBtn.onclick = function () {
+            modal.style.display = 'none';
+        };
+
+        // Fechar o modal ao clicar fora do conteúdo
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        };
+    }
 });

@@ -234,6 +234,23 @@ body {
     margin-bottom: 1rem;
 }
 
+.products-section h3 {
+    font-size: 1.5rem;
+    color: #6e5034;
+    margin-bottom: 1rem;
+}
+
+a.magalu {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fdfcf9;
+    background-color: #800000;
+    padding: 2px 12px;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    display: block;
+}
+
 .location-section p {
     font-size: 1.2rem;
     color: #444;

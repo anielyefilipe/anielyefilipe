@@ -1,0 +1,176 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* Transição suave ao rolar para âncoras */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    font-family: 'Georgia', serif;
+    background-color: #fdfcf9;
+}
+
+.invitation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.invitation-card {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e6dccf;
+    padding: 40px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+/* Texto do Cabeçalho */
+.header-text p {
+    font-style: italic;
+    color: #6e5034;
+    margin-bottom: 10px;
+}
+
+.header-text h1 {
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: #6e5034;
+    margin-bottom: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    color: #6e5034;
+}
+
+.date-block, .time-block, .week-day-block {
+    flex: 1;
+}
+
+.time-block, .week-day-block {
+    border-top: #6e5034 2px solid;
+    border-bottom: #6e5034 2px solid;
+}
+
+.date-block h2 {
+    font-size: 2.5rem;
+}
+
+.date-block span, .time-block span {
+    display: block;
+    font-size: 1rem;
+}
+
+.location, .reception {
+    margin-top: 10px;
+    color: #6e5034;
+    font-style: italic;
+}
+
+/* Imagens das Flores */
+.flores-esquerda, .flores-direita {
+    position: absolute;
+    top: -20px;
+    width: 500px;
+}
+
+.flores-esquerda {
+    top: -150px;
+    left: -100px;
+}
+
+.flores-direita {
+    right: -20px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .invitation-card {
+        width: 100%;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .location-section iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* Barra de Navegação */
+.navbar {
+    width: 100%;
+    background-color: #6e5034;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #e6dccf;
+}
+
+/* Seção de Localização */
+.location-section {
+    margin: 50px auto;
+    text-align: center;
+    padding: 50px 20px;
+    width: 80%;
+}
+
+.location-section h2 {
+    font-size: 2rem;
+    color: #6e5034;
+}
+
+.location-section p {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+}

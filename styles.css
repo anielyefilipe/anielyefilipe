@@ -6,10 +6,12 @@
 }
 
 html {
+    overflow: auto;
     scroll-behavior: smooth; /* Transição suave ao rolar para âncoras */
 }
 
 body {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;

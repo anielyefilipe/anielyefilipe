@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Evento para abrir o modal ao clicar em "Comprar"
                 button.addEventListener('click', function () {
-                    openModal(produto.title, produto.description, `produtos/pix/${convertToCents(produto.price)}.png`);
+                    openModal(produto.title, produto.description, `produtos/pix/${convertToCents(produto.price)}.png`, produto.pixCode);
                 });
             });
         })
@@ -142,10 +142,11 @@ function convertToCents(price) {
     let cleanValue = price.replace(/[R$\s]/g, '');
 
     // Substitui a vírgula por ponto
-    cleanValue = cleanValue.replace(',', '.');
+    cents = cleanValue.replace(',', '');
 
-    // Converte para número em centavos
-    const cents = Math.round(parseFloat(cleanValue) * 100);
+    if (cents === "????") {
+        cents = 'any';
+    }
 
     return cents;
 }

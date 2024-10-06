@@ -96,8 +96,19 @@
                 <span class="close">&times;</span>
                 <h2 id="modal-title"></h2>
                 <p id="modal-description"></p>
-                <img id="modal-image" src="" alt="QR Code de Pagamento">
-                <p>Ou então use a chave PIX: <strong>teste@gmail.com</strong></p>
+                <br>
+                <p>Pagamento por pix, escaneie o QR code:</p>
+                <img id="modal-image" src="" alt="QR Code" style="width: 250px; height: auto; margin: 20px 0;">
+                
+                <!-- Exibição do Código Pix -->
+                <p><strong>Ou use o Pix Copia e Cola:</strong></p>
+                <p id="modal-pix-code" style="word-wrap: break-word;"></p>
+        
+                <!-- Botão para copiar o código Pix -->
+                <button class="copy-button" id="copy-button">Copiar Código Pix</button>
+                
+                <p>Ou então use a chave Pix: <strong>anielyefilipe@gmail.com</strong></p>
+                <button class="copy-button" id="copy-pix-key">Copiar chave pix</button>
             </div>
         </div>
     </div>

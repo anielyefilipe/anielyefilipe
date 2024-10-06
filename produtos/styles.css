@@ -139,3 +139,31 @@ h1 {
         align-items: center;
     }
 }
+
+/* Estilo do botão de copiar */
+.copy-button {
+    background-color: #27ae60; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão ao passar por cima */
+    font-size: 1rem; /* Tamanho da fonte */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Efeitos de transição */
+    margin: 10px auto;
+}
+
+.copy-button:hover {
+    background-color: #219150; /* Cor de fundo mais escura ao passar o mouse */
+    transform: scale(1.05); /* Aumenta levemente o tamanho */
+}
+
+.copy-button:active {
+    background-color: #1e8449; /* Cor ainda mais escura ao clicar */
+    transform: scale(0.98); /* Leve redução ao clicar */
+}
+
+.copy-button:focus {
+    outline: none; /* Remove a borda padrão ao focar */
+    box-shadow: 0 0 5px rgba(39, 174, 96, 0.8); /* Sombra em volta do botão ao focar */
+}

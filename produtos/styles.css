@@ -8,7 +8,6 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f7e7ce;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;

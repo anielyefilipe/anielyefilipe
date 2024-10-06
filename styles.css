@@ -19,6 +19,8 @@ body {
     /* height: 100vh; */
     font-family: 'Georgia', serif;
     background-color: #fdfcf9;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .invitation-container {
@@ -34,11 +36,16 @@ body {
     background-color: #fff;
     border: 1px solid #e6dccf;
     padding: 40px;
-    width: 600px;
+    width: 1000px;
+    min-height: 600px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 /* Texto do Cabeçalho */
@@ -52,7 +59,7 @@ body {
     font-family: "Alex Brush", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 5rem;
     color: #6e5034;
     margin-bottom: 10px;
 }
@@ -78,9 +85,9 @@ body {
     font-size: 2.5rem;
 }
 
-.date-block span, .time-block span {
+.date-block span, .time-block span, .week-day-block span {
     display: block;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .location, .reception {
@@ -111,6 +118,23 @@ body {
 @media (max-width: 768px) {
     .invitation-card, div.location-section {
         width: 100%;
+    }
+
+    .invitation-card {
+        font-size: 1.2rem;
+    }
+
+    .header-text h1 {
+        font-size: 4rem;
+    }
+
+    .date-block {
+        margin: 0 10px;
+    }
+
+    .date-block span, .time-block span, .week-day-block span {
+        display: block;
+        font-size: 1.2rem;
     }
 
     .flores-esquerda {
@@ -204,7 +228,7 @@ body {
     background-color: #fff;
     border: 1px solid #e6dccf;
     /* padding: 40px; */
-    /* width: 600px; */
+    width: 1000px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -220,6 +244,7 @@ body {
     padding-top: 50px;
     margin: 50px auto;
     text-align: center;
+    max-width: 1000px;
 }
 
 .invitation-container {
@@ -249,6 +274,9 @@ a.magalu {
     margin-bottom: 1rem;
     border-radius: 12px;
     display: block;
+}
+a.magalu:hover {
+    background-color: #600000;
 }
 
 .location-section p {
@@ -289,3 +317,22 @@ a.magalu {
     font-size: 1rem;
     color: #555;
 }
+
+/* Footer */
+footer {
+    background-color: #800000;
+    text-align: center;
+    padding: 20px 0;
+    margin: 40px 0 0 0;
+    width: 100vw;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #fdfcf9;
+}
+
+footer p span {
+    color: #fdfcf9; /* Cor do coração */
+}
+/* color: #e74c3c;  */

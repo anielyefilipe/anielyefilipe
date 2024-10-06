@@ -1,15 +1,33 @@
 [
     {
+      "image": "produtos/thumb/divertidamente.jpg",
+      "title": "Calmante pra Noiva",
+      "description": "Para equilibrar os \"Divertidamente\" da noiva na véspera do grande dia.",
+      "price": "R$ 59,90"
+    },
+    {
+      "image": "produtos/thumb/vaca.jpg",
+      "title": "Vaquinha da sorte",
+      "description": "Ajude com o quanto quiser.",
+      "price": "R$ ????"
+    },
+    {
+      "image": "produtos/thumb/jukebox.jpg",
+      "title": "Jukebox da Discovenus",
+      "description": "Escolha uma música para tocar na festa. *Sujeito a aprovação do pai da noiva",
+      "price": "R$ 299,90"
+    },
+    {
       "image": "produtos/thumb/agenda.jpg",
       "title": "Agenda Permanente",
       "description": "Agenda para o Noivo",
-      "price": "R$ 89,00"
+      "price": "R$ 29,90"
     },
     {
-      "image": "produtos/thumb/alarme.jpg",
-      "title": "Alarme",
-      "description": "Com lembrete \"Vai lavar a louça\" automático",
-      "price": "R$ 49,90"
+      "image": "produtos/thumb/buque.jpg",
+      "title": "Hora do buquê",
+      "description": "Taxa para a noiva não jogar o buquê na mão da sua namorada",
+      "price": "R$ 99,90"
     },
     {
       "image": "produtos/thumb/aluguel.jpg",
@@ -29,11 +47,12 @@
       "description": "Diária da babá das gatinhas 😽",
       "price": "R$ 95,00"
     },
+
     {
-      "image": "produtos/thumb/cofre.jpg",
-      "title": "Cofre pra Controle Remoto da TV",
-      "description": "Dispositivo altamente tecnológico para evitar perdas. Guardou, está lá.",
-      "price": "R$ 120,00"
+      "image": "produtos/thumb/alarme.jpg",
+      "title": "Alarme",
+      "description": "Com lembrete \"Vai lavar a louça\" automático",
+      "price": "R$ 49,90"
     },
     {
       "image": "produtos/thumb/culinaria.jpg",
@@ -48,46 +67,22 @@
       "price": "R$ 150,00"
     },
     {
-      "image": "produtos/thumb/divertidamente.jpg",
-      "title": "Calmante pra Noiva",
-      "description": "Medicamento para equilibrar os \"Divertidamente\" da noiva na véspera do grande dia.",
-      "price": "R$ 59,90"
-    },
-    {
       "image": "produtos/thumb/fila.jpg",
       "title": "Fila prioritária",
       "description": "Vaga privilegiada na fila do buffet.",
       "price": "R$ 250,00"
     },
     {
-      "image": "produtos/thumb/jukebox.jpg",
-      "title": "Jukebox da Discovenus",
-      "description": "Escolha uma música para tocar na festa.",
-      "price": "R$ 301,00"
-    },
-    {
       "image": "produtos/thumb/mala.jpg",
       "title": "Lua de Mel",
       "description": "Ajude os noivos a organizar a Lua de Mel.",
-      "price": "R$ 50,00"
+      "price": "R$ 150,00"
     },
     {
       "image": "produtos/thumb/spa.jpg",
       "title": "Dia de Spa",
       "description": "Pra recuperar a sanidade após todo esse trabalho de organização.",
       "price": "R$ 199,99"
-    },
-    {
-      "image": "produtos/thumb/travesseiro.jpg",
-      "title": "Jogo de Cama",
-      "description": "Vem com almofadas marcando o lugar da noiva e o do noivo",
-      "price": "R$ 60,00"
-    },
-    {
-      "image": "produtos/thumb/vaca.jpg",
-      "title": "Vaquinha da sorte",
-      "description": "Ajude com o quanto quiser.",
-      "price": "R$ ????"
     },
     {
       "image": "produtos/thumb/rica.jpg",

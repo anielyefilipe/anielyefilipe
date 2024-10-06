@@ -1,75 +1,75 @@
 [
     {
       "image": "produtos/thumb/agenda.jpg",
-      "title": "Produto 1",
-      "description": "Descrição do produto 1.",
-      "price": "R$ 100,00"
+      "title": "Agenda Permanente",
+      "description": "Agenda para o Noivo",
+      "price": "R$ 89,00"
     },
     {
       "image": "produtos/thumb/alarme.jpg",
-      "title": "Produto 2",
-      "description": "Descrição do produto 2.",
-      "price": "R$ 150,00"
+      "title": "Alarme",
+      "description": "Com lembrete \"Vai lavar a louça\" automático",
+      "price": "R$ 49,90"
     },
     {
       "image": "produtos/thumb/aluguel.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
+      "title": "'Pague o Aluguel!'",
+      "description": "Ajude-nos a pagar o Sr. Barriga",
       "price": "R$ 200,00"
     },
     {
       "image": "produtos/thumb/capacete.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Capacete",
+      "description": "Proteção contra acidentes com rolo de macarrão",
+      "price": "R$ 59,90"
     },
     {
       "image": "produtos/thumb/catsitter.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Cat Sitter",
+      "description": "Diária da babá das gatinhas 😽",
+      "price": "R$ 95,00"
     },
     {
       "image": "produtos/thumb/cofre.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Cofre pra Controle Remoto da TV",
+      "description": "Dispositivo altamente tecnológico para evitar perdas. Guardou, está lá.",
+      "price": "R$ 120,00"
     },
     {
       "image": "produtos/thumb/culinaria.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Aula de Culinária",
+      "description": "Curso de culinária básica para o casal",
+      "price": "R$ 230,00"
     },
     {
       "image": "produtos/thumb/danca.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Aulas de Dança",
+      "description": "Curso preparatório para a Valsa dos Noivos.",
+      "price": "R$ 150,00"
     },
     {
       "image": "produtos/thumb/divertidamente.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Calmante pra Noiva",
+      "description": "Medicamento para equilibrar os \"Divertidamente\" da noiva na véspera do grande dia.",
+      "price": "R$ 59,90"
     },
     {
       "image": "produtos/thumb/fila.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Fila prioritária",
+      "description": "Vaga privilegiada na fila do buffet.",
+      "price": "R$ 250,00"
     },
     {
       "image": "produtos/thumb/jukebox.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Jukebox da Discovenus",
+      "description": "Escolha uma música para tocar na festa.",
+      "price": "R$ 301,00"
     },
     {
       "image": "produtos/thumb/mala.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Lua de Mel",
+      "description": "Ajude os noivos a organizar a Lua de Mel.",
+      "price": "R$ 50,00"
     },
     {
       "image": "produtos/thumb/spa.jpg",
@@ -79,15 +79,21 @@
     },
     {
       "image": "produtos/thumb/travesseiro.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Jogo de Cama",
+      "description": "Vem com almofadas marcando o lugar da noiva e o do noivo",
+      "price": "R$ 60,00"
     },
     {
       "image": "produtos/thumb/vaca.jpg",
       "title": "Produto 3",
       "description": "Descrição do produto 3.",
       "price": "R$ 200,00"
+    },
+    {
+      "image": "produtos/thumb/rica.jpg",
+      "title": "Pra fazer graça",
+      "description": "Só porque você pode.",
+      "price": "R$ 1.000,00"
     }
   ]
   

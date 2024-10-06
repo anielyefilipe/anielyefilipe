@@ -96,7 +96,6 @@ document.addEventListener("DOMContentLoaded", function () {
             modalTitle.textContent = title;
             modalDescription.textContent = description;
             modalImage.src = qrCodeSrc; // QR Code recebido como parâmetro
-            modalPixCode.textContent = pixCode; // Código Pix recebido como parâmetro
         
             // Mostrar o modal
             modal.style.display = 'flex';
@@ -139,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function convertToCents(price) {
     // Remove "R$" e espaços
-    let cleanValue = price.replace(/[R$\s]/g, '');
+    let cleanValue = price.replace(/[R$\s\.]/g, '');
 
     // Substitui a vírgula por ponto
     cents = cleanValue.replace(',', '');

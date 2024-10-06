@@ -73,9 +73,9 @@
     },
     {
       "image": "produtos/thumb/spa.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Dia de Spa",
+      "description": "Pra recuperar a sanidade após todo esse trabalho de organização.",
+      "price": "R$ 199,99"
     },
     {
       "image": "produtos/thumb/travesseiro.jpg",
@@ -85,9 +85,9 @@
     },
     {
       "image": "produtos/thumb/vaca.jpg",
-      "title": "Produto 3",
-      "description": "Descrição do produto 3.",
-      "price": "R$ 200,00"
+      "title": "Vaquinha da sorte",
+      "description": "Ajude com o quanto quiser.",
+      "price": "R$ ????"
     },
     {
       "image": "produtos/thumb/rica.jpg",

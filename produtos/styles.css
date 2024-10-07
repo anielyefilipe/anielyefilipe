@@ -156,6 +156,19 @@ h1 {
     }
 }
 
+@media (max-width: 450px) {
+    .modal-content {
+        /* display: flex; */
+        align-self: flex-end;
+    }
+}
+
+@media (max-height: 550px) {
+    .modal-content img, p.prompt-qr {
+        display: none;
+    }
+}
+
 /* Estilo do botão de copiar */
 .copy-button {
     background-color: #27ae60; /* Cor de fundo verde */
